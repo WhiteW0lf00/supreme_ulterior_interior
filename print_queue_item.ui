@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>printQueueItem</class>
+ <widget class="QWidget" name="printQueueItem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>511</width>
+    <height>109</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#3399ff;</string>
+  </property>
+  <widget class="QLabel" name="countLabel">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="English" country="India"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;200 units&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="certificateLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Certificate for UG students&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>30</y>
+     <width>51</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid #3399ff</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>411</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>50</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+   <property name="format">
+    <string>%p%</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

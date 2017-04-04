@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>statusWidget</class>
+ <widget class="QWidget" name="statusWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="powerFrame">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>711</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="powerLabel">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>10</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Power Status&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="batteryBar">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>80</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="invertedAppearance">
+     <bool>false</bool>
+    </property>
+    <property name="format">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="batteryLabel">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>27</y>
+      <width>56</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;80%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="networkFrame">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>260</y>
+     <width>711</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="networkLabel">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>10</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Network Status&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="networkBar">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="value">
+     <number>50</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="invertedAppearance">
+     <bool>false</bool>
+    </property>
+    <property name="format">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connectionLabel">
+    <property name="geometry">
+     <rect>
+      <x>572</x>
+      <y>27</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Connected&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="inkFrame">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>711</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="inkLabel">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>10</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Ink Status&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="colorInkBar">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>15</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="invertedAppearance">
+     <bool>false</bool>
+    </property>
+    <property name="format">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="blackInkBar">
+    <property name="geometry">
+     <rect>
+      <x>361</x>
+      <y>44</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>75</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+    <property name="textVisible">
+     <bool>true</bool>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="invertedAppearance">
+     <bool>false</bool>
+    </property>
+    <property name="format">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>591</x>
+      <y>15</y>
+      <width>68</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;25%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>591</x>
+      <y>42</y>
+      <width>68</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;75%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>inkLabel</zorder>
+   <zorder>blackInkBar</zorder>
+   <zorder>colorInkBar</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+  <widget class="QPushButton" name="printButton">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>400</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 180, 0); border: 1px solid white;</string>
+   </property>
+   <property name="text">
+    <string>Proceed to Printing</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>400</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff; border: 1px solid white;</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
