@@ -20,7 +20,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color:#3399ff;</string>
+   <string notr="true"/>
   </property>
   <widget class="QLabel" name="countLabel">
    <property name="geometry">
@@ -120,6 +120,30 @@
     <string>%p%</string>
    </property>
   </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-4</x>
+     <y>0</y>
+     <width>518</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>countLabel</zorder>
+  <zorder>certificateLabel</zorder>
+  <zorder>downloadButton</zorder>
+  <zorder>progressBar</zorder>
  </widget>
  <resources/>
  <connections/>
