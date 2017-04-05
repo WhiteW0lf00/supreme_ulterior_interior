@@ -39,9 +39,9 @@
    <widget class="QLabel" name="timeLabel">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>410</x>
       <y>0</y>
-      <width>271</width>
+      <width>381</width>
       <height>41</height>
      </rect>
     </property>
@@ -69,15 +69,15 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>80</y>
-     <width>751</width>
-     <height>381</height>
+     <x>-10</x>
+     <y>60</y>
+     <width>811</width>
+     <height>421</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
-    <item row="1" column="0">
-     <widget class="QToolButton" name="wifiButton">
+    <item row="0" column="2">
+     <widget class="QToolButton" name="supportButton">
       <property name="minimumSize">
        <size>
         <width>150</width>
@@ -88,11 +88,11 @@
        <string notr="true">background-color: #3399ff;</string>
       </property>
       <property name="text">
-       <string>WiFi</string>
+       <string>Support</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>sumato/wifi-icon.png</normaloff>sumato/wifi-icon.png</iconset>
+       <iconset resource="../icons.qrc">
+        <normaloff>:/support.png</normaloff>:/support.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -120,8 +120,8 @@
        <string>Power Off</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>sumato/Power-icon.png</normaloff>sumato/Power-icon.png</iconset>
+       <iconset resource="../icons.qrc">
+        <normaloff>:/power.png</normaloff>:/power.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -149,8 +149,8 @@
        <string>Settings</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>sumato/Settings-icon.png</normaloff>sumato/Settings-icon.png</iconset>
+       <iconset resource="../icons.qrc">
+        <normaloff>:/settings.png</normaloff>:/settings.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -178,8 +178,8 @@
        <string>Updates</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>sumato/Update-icon.png</normaloff>sumato/Update-icon.png</iconset>
+       <iconset resource="../icons.qrc">
+        <normaloff>:/updates.png</normaloff>:/updates.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -201,14 +201,14 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #3399ff; </string>
+       <string notr="true">background-color: #3399ff;</string>
       </property>
       <property name="text">
        <string>Print</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>sumato/Print-icon.png</normaloff>sumato/Print-icon.png</iconset>
+       <iconset resource="../icons.qrc">
+        <normaloff>:/print.png</normaloff>:/print.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -221,8 +221,8 @@
       </property>
      </widget>
     </item>
-    <item row="0" column="2">
-     <widget class="QToolButton" name="supportButton">
+    <item row="1" column="0">
+     <widget class="QToolButton" name="wifiButton">
       <property name="minimumSize">
        <size>
         <width>150</width>
@@ -233,11 +233,11 @@
        <string notr="true">background-color: #3399ff;</string>
       </property>
       <property name="text">
-       <string>Support</string>
+       <string>WiFi</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>sumato/support-icon.png</normaloff>sumato/support-icon.png</iconset>
+       <iconset resource="../icons.qrc">
+        <normaloff>:/wifi.png</normaloff>:/wifi.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -253,6 +253,8 @@
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -96,6 +96,14 @@
      <height>33</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff; border: 1px solid white</string>
+   </property>
    <property name="text">
     <string>Exit</string>
    </property>

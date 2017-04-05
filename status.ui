@@ -169,11 +169,11 @@
      <string notr="true"/>
     </property>
    </widget>
-   <widget class="QLabel" name="connectionLabel">
+   <widget class="QLabel" name="ssidLabel">
     <property name="geometry">
      <rect>
-      <x>572</x>
-      <y>27</y>
+      <x>571</x>
+      <y>25</y>
       <width>131</width>
       <height>31</height>
      </rect>
@@ -185,10 +185,39 @@
      </font>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Connected&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;SSID&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="warningText">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>59</y>
+      <width>357</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;No Internet access. Please change your connection&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="internetCaution">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>19</y>
+      <width>39</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Resources/status_caution.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -276,7 +305,7 @@
      <set>Qt::AlignHCenter|Qt::AlignTop</set>
     </property>
     <property name="textVisible">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -288,7 +317,7 @@
      <string notr="true"/>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="colorInkLabel">
     <property name="geometry">
      <rect>
       <x>591</x>
@@ -307,7 +336,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;25%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="blackInkLabel">
     <property name="geometry">
      <rect>
       <x>591</x>
@@ -329,8 +358,8 @@
    <zorder>inkLabel</zorder>
    <zorder>blackInkBar</zorder>
    <zorder>colorInkBar</zorder>
-   <zorder>label</zorder>
-   <zorder>label_2</zorder>
+   <zorder>colorInkLabel</zorder>
+   <zorder>blackInkLabel</zorder>
   </widget>
   <widget class="QPushButton" name="printButton">
    <property name="geometry">
@@ -354,7 +383,7 @@
     <string>Proceed to Printing</string>
    </property>
   </widget>
-  <widget class="QToolButton" name="toolButton">
+  <widget class="QToolButton" name="exitButton">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -374,6 +403,27 @@
    </property>
    <property name="text">
     <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="wifiButton">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>400</y>
+     <width>145</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffda44; border: 1px solid white</string>
+   </property>
+   <property name="text">
+    <string>WiFi Settings</string>
    </property>
   </widget>
  </widget>

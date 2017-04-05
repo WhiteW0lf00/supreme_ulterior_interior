@@ -66,7 +66,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Certificate for UG students&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QToolButton" name="closeButton">
+  <widget class="QToolButton" name="downloadButton">
    <property name="geometry">
     <rect>
      <x>440</x>
@@ -85,7 +85,17 @@
     <string notr="true">border: 1px solid #3399ff</string>
    </property>
    <property name="text">
-    <string>X</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/printQueueItem_dling.png</normaloff>Resources/printQueueItem_dling.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
    </property>
   </widget>
   <widget class="QProgressBar" name="progressBar">
