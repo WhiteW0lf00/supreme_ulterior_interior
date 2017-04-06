@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>profileWidget</class>
+ <widget class="QWidget" name="profileWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="topFrame">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>741</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="companyLabel">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>4</y>
+      <width>179</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sumato Global</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeLabel">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>4</y>
+      <width>179</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time goes here</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="profileButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>271</width>
+     <height>83</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+   </property>
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="printingButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>271</width>
+     <height>83</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+   </property>
+   <property name="text">
+    <string>Printing</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="statusButton">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>290</y>
+     <width>271</width>
+     <height>83</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+   </property>
+   <property name="text">
+    <string>Status</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>73</x>
+     <y>409</y>
+     <width>81</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="sideFrame">
+   <property name="geometry">
+    <rect>
+     <x>372</x>
+     <y>69</y>
+     <width>325</width>
+     <height>303</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #cddff5</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="dataLabel">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>127</y>
+      <width>315</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Data goes here</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="iconLabel">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>4</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;University&lt;/p&gt;&lt;p&gt;Logo&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

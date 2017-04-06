@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wifiWidget</class>
+ <widget class="QWidget" name="wifiWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>741</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>3</y>
+      <width>179</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sumato Global</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>561</x>
+      <y>4</y>
+      <width>179</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time goes here</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="authFrame">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>70</y>
+     <width>301</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #cddff5</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="ssidLabel">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>226</width>
+      <height>58</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SSID</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="cancelButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>223</y>
+      <width>81</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #445865; border: 1px solid #445865</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="connectButton">
+    <property name="geometry">
+     <rect>
+      <x>153</x>
+      <y>222</y>
+      <width>105</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #0fb43e; border: 1px solid #0fb43e</string>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passInput">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>140</y>
+      <width>207</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="ssidFrame">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>71</y>
+     <width>301</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>22</y>
+      <width>237</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SSID 1</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>76</y>
+      <width>237</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SSID 2</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>130</y>
+      <width>237</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SSID 3</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>186</y>
+      <width>237</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SSID 4</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>34</x>
+      <y>240</y>
+      <width>237</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SSID 5</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>399</y>
+     <width>81</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #3399ff; border: 1px solid #3399ff</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
