@@ -101,7 +101,8 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #3399ff;</string>
+       <string notr="true">background-color: #1d6bd8; border: none
+</string>
       </property>
       <property name="text">
        <string>Support</string>
@@ -130,7 +131,8 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #3399ff;</string>
+       <string notr="true">background-color: #1d6bd8; border: none
+</string>
       </property>
       <property name="text">
        <string>Power Off</string>
@@ -159,7 +161,8 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #3399ff;</string>
+       <string notr="true">background-color: #1d6bd8; border: none
+</string>
       </property>
       <property name="text">
        <string>Settings</string>
@@ -188,7 +191,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #3399ff;</string>
+       <string notr="true">background-color: #1d6bd8; border: none</string>
       </property>
       <property name="text">
        <string>Updates</string>
@@ -217,7 +220,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #3399ff;</string>
+       <string notr="true">background-color: #1d6bd8; border: none; </string>
       </property>
       <property name="text">
        <string>Print</string>
@@ -246,7 +249,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #3399ff;</string>
+       <string notr="true">background-color: #1d6bd8; border: none</string>
       </property>
       <property name="text">
        <string>WiFi</string>
