@@ -16,8 +16,8 @@
   <widget class="QProgressBar" name="loadingBar">
    <property name="geometry">
     <rect>
-     <x>246</x>
-     <y>401</y>
+     <x>240</x>
+     <y>200</y>
      <width>349</width>
      <height>8</height>
     </rect>
@@ -33,7 +33,7 @@
    <property name="geometry">
     <rect>
      <x>251</x>
-     <y>426</y>
+     <y>230</y>
      <width>337</width>
      <height>30</height>
     </rect>
@@ -49,7 +49,7 @@
    <property name="geometry">
     <rect>
      <x>310</x>
-     <y>194</y>
+     <y>70</y>
      <width>213</width>
      <height>70</height>
     </rect>
@@ -58,9 +58,29 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>Resources/logo_final small.png</pixmap>
+    <pixmap resource="icons.qrc">:/logo-final-small.png</pixmap>
    </property>
   </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/loadingBG_small.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>loadingBar</zorder>
+  <zorder>loadingLabel</zorder>
+  <zorder>label</zorder>
  </widget>
  <resources>
   <include location="icons.qrc"/>

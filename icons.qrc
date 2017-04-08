@@ -1,12 +1,17 @@
 <!DOCTYPE RCC><RCC version="1.0">
     <qresource>
-        <file alias="power.png">../images/Power-icon.png</file>
-        <file alias="print.png">../images/Print-icon.png</file>
-        <file alias="settings.png">../images/Settings-icon.png</file>
-        <file alias="support.png">../images/support-icon.png</file>
-        <file alias="updates.png">../images/Update-icon.png</file>
-        <file alias="wifi.png">../images/wifi-icon.png</file>
-        <file alias="cmyk.jpg">../images/cmyk.jpeg</file>
-        <file alias="ripple.gif">../images/ripple.gif</file>
+        <file alias="power.png">Resources/Power-icon.png</file>
+        <file alias="print.png">Resources/Print-icon.png</file>
+        <file alias="settings.png">Resources/Settings-icon.png</file>
+        <file alias="support.png">Resources/support-icon.png</file>
+        <file alias="updates.png">Resources/Update-icon.png</file>
+        <file alias="wifi.png">Resources/wifi-icon.png</file>
+        <file alias="cmyk.jpg">Resources/cmyk.jpeg</file>
+        <file alias="ripple.gif">Resources/ripple.gif</file>
+        <file alias="logo-final-small.png">Resources/logo-final-small.png</file>
+        <file alias="printQueueItem_dling.png">Resources/printQueueItem_dling.png</file>
+        <file alias="loadingBG_small.png">Resources/loadingBG_small.png</file>
+        <file alias="status_caution.png">Resources/status_caution.png</file>
+        <file alias="uiBG.png">Resources/uiBG.png</file>
     </qresource>
 </RCC>

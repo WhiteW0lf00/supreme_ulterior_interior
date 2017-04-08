@@ -16,9 +16,9 @@
   <widget class="QFrame" name="topFrame">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>0</x>
      <y>0</y>
-     <width>741</width>
+     <width>800</width>
      <height>41</height>
     </rect>
    </property>
@@ -44,9 +44,9 @@
    <widget class="QLabel" name="timeLabel">
     <property name="geometry">
      <rect>
-      <x>560</x>
+      <x>328</x>
       <y>4</y>
-      <width>179</width>
+      <width>471</width>
       <height>33</height>
      </rect>
     </property>
@@ -54,7 +54,7 @@
      <string>Time goes here</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
@@ -111,8 +111,8 @@
     <rect>
      <x>73</x>
      <y>409</y>
-     <width>81</width>
-     <height>33</height>
+     <width>100</width>
+     <height>50</height>
     </rect>
    </property>
    <property name="styleSheet">

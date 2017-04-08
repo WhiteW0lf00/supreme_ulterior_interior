@@ -53,10 +53,10 @@
    <widget class="QProgressBar" name="batteryBar">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>30</y>
+      <x>330</x>
+      <y>38</y>
       <width>201</width>
-      <height>21</height>
+      <height>12</height>
      </rect>
     </property>
     <property name="value">
@@ -81,10 +81,10 @@
    <widget class="QLabel" name="batteryLabel">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>27</y>
-      <width>56</width>
-      <height>31</height>
+      <x>537</x>
+      <y>34</y>
+      <width>170</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -141,10 +141,10 @@
    <widget class="QProgressBar" name="networkBar">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>30</y>
+      <x>330</x>
+      <y>36</y>
       <width>201</width>
-      <height>21</height>
+      <height>12</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -172,10 +172,10 @@
    <widget class="QLabel" name="ssidLabel">
     <property name="geometry">
      <rect>
-      <x>571</x>
-      <y>25</y>
-      <width>131</width>
-      <height>31</height>
+      <x>536</x>
+      <y>31</y>
+      <width>171</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -194,9 +194,9 @@
    <widget class="QLabel" name="warningText">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>330</x>
       <y>59</y>
-      <width>357</width>
+      <width>377</width>
       <height>18</height>
      </rect>
     </property>
@@ -217,7 +217,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Resources/status_caution.png</pixmap>
+     <pixmap resource="icons.qrc">:/status_caution.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -261,10 +261,10 @@
    <widget class="QProgressBar" name="colorInkBar">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>15</y>
+      <x>330</x>
+      <y>26</y>
       <width>201</width>
-      <height>21</height>
+      <height>12</height>
      </rect>
     </property>
     <property name="layoutDirection">
@@ -292,10 +292,10 @@
    <widget class="QProgressBar" name="blackInkBar">
     <property name="geometry">
      <rect>
-      <x>361</x>
-      <y>44</y>
+      <x>330</x>
+      <y>51</y>
       <width>201</width>
-      <height>21</height>
+      <height>12</height>
      </rect>
     </property>
     <property name="value">
@@ -320,9 +320,9 @@
    <widget class="QLabel" name="colorInkLabel">
     <property name="geometry">
      <rect>
-      <x>591</x>
-      <y>15</y>
-      <width>68</width>
+      <x>535</x>
+      <y>21</y>
+      <width>172</width>
       <height>20</height>
      </rect>
     </property>
@@ -335,13 +335,16 @@
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;25%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="blackInkLabel">
     <property name="geometry">
      <rect>
-      <x>591</x>
-      <y>42</y>
-      <width>68</width>
+      <x>536</x>
+      <y>44</y>
+      <width>172</width>
       <height>21</height>
      </rect>
     </property>
@@ -353,6 +356,9 @@
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;75%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <zorder>inkLabel</zorder>
@@ -367,7 +373,7 @@
      <x>550</x>
      <y>400</y>
      <width>201</width>
-     <height>51</height>
+     <height>50</height>
     </rect>
    </property>
    <property name="font">
@@ -377,7 +383,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 180, 0); border: 1px solid white;</string>
+    <string notr="true">background-color: rgb(0, 180, 0); border: 1px solid #00b400;</string>
    </property>
    <property name="text">
     <string>Proceed to Printing</string>
@@ -386,7 +392,7 @@
   <widget class="QToolButton" name="exitButton">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>40</x>
      <y>400</y>
      <width>100</width>
      <height>50</height>
@@ -399,7 +405,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #3399ff; border: 1px solid white;</string>
+    <string notr="true">background-color: #3399ff; border: 1px solid #3399ff;</string>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -408,10 +414,10 @@
   <widget class="QToolButton" name="wifiButton">
    <property name="geometry">
     <rect>
-     <x>289</x>
+     <x>270</x>
      <y>400</y>
-     <width>145</width>
-     <height>51</height>
+     <width>164</width>
+     <height>50</height>
     </rect>
    </property>
    <property name="font">
@@ -420,13 +426,15 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #ffda44; border: 1px solid white</string>
+    <string notr="true">background-color: #ffda44; border: 1px solid #ffda44</string>
    </property>
    <property name="text">
     <string>WiFi Settings</string>
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

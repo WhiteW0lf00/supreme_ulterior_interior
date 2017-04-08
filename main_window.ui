@@ -22,8 +22,8 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>20</y>
-     <width>801</width>
+     <y>0</y>
+     <width>800</width>
      <height>41</height>
     </rect>
    </property>
@@ -39,9 +39,9 @@
    <widget class="QLabel" name="timeLabel">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>381</x>
       <y>0</y>
-      <width>381</width>
+      <width>410</width>
       <height>41</height>
      </rect>
     </property>
@@ -66,13 +66,29 @@
     </property>
    </widget>
   </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>39</y>
+     <width>800</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/uiBG.png</pixmap>
+   </property>
+  </widget>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>-10</x>
-     <y>60</y>
+     <x>-3</x>
+     <y>42</y>
      <width>811</width>
-     <height>421</height>
+     <height>444</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -91,7 +107,7 @@
        <string>Support</string>
       </property>
       <property name="icon">
-       <iconset resource="../icons.qrc">
+       <iconset resource="icons.qrc">
         <normaloff>:/support.png</normaloff>:/support.png</iconset>
       </property>
       <property name="iconSize">
@@ -120,7 +136,7 @@
        <string>Power Off</string>
       </property>
       <property name="icon">
-       <iconset resource="../icons.qrc">
+       <iconset resource="icons.qrc">
         <normaloff>:/power.png</normaloff>:/power.png</iconset>
       </property>
       <property name="iconSize">
@@ -149,7 +165,7 @@
        <string>Settings</string>
       </property>
       <property name="icon">
-       <iconset resource="../icons.qrc">
+       <iconset resource="icons.qrc">
         <normaloff>:/settings.png</normaloff>:/settings.png</iconset>
       </property>
       <property name="iconSize">
@@ -178,7 +194,7 @@
        <string>Updates</string>
       </property>
       <property name="icon">
-       <iconset resource="../icons.qrc">
+       <iconset resource="icons.qrc">
         <normaloff>:/updates.png</normaloff>:/updates.png</iconset>
       </property>
       <property name="iconSize">
@@ -207,7 +223,7 @@
        <string>Print</string>
       </property>
       <property name="icon">
-       <iconset resource="../icons.qrc">
+       <iconset resource="icons.qrc">
         <normaloff>:/print.png</normaloff>:/print.png</iconset>
       </property>
       <property name="iconSize">
@@ -236,7 +252,7 @@
        <string>WiFi</string>
       </property>
       <property name="icon">
-       <iconset resource="../icons.qrc">
+       <iconset resource="icons.qrc">
         <normaloff>:/wifi.png</normaloff>:/wifi.png</iconset>
       </property>
       <property name="iconSize">
@@ -252,9 +268,12 @@
     </item>
    </layout>
   </widget>
+  <zorder>background</zorder>
+  <zorder>topFrame</zorder>
+  <zorder>layoutWidget</zorder>
  </widget>
  <resources>
-  <include location="../icons.qrc"/>
+  <include location="icons.qrc"/>
  </resources>
  <connections/>
 </ui>

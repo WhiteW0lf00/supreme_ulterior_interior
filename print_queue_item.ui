@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>511</width>
-    <height>81</height>
+    <width>510</width>
+    <height>80</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -24,7 +24,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>511</width>
+     <width>510</width>
      <height>79</height>
     </rect>
    </property>
@@ -104,8 +104,8 @@
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>Resources/printQueueItem_dling.png</normaloff>Resources/printQueueItem_dling.png</iconset>
+     <iconset resource="icons.qrc">
+      <normaloff>:/printQueueItem_dling.png</normaloff>:/printQueueItem_dling.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -116,6 +116,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>
