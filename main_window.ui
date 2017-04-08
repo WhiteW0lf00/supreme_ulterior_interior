@@ -70,7 +70,7 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>39</y>
+     <y>40</y>
      <width>800</width>
      <height>441</height>
     </rect>
@@ -131,8 +131,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #1d6bd8; border: none
-</string>
+       <string notr="true">background-color: #1d6bd8; border: none</string>
       </property>
       <property name="text">
        <string>Power Off</string>
@@ -161,8 +160,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #1d6bd8; border: none
-</string>
+       <string notr="true">background-color: #1d6bd8; border: none</string>
       </property>
       <property name="text">
        <string>Settings</string>
@@ -220,7 +218,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #1d6bd8; border: none; </string>
+       <string notr="true">background-color: #1d6bd8; border: none</string>
       </property>
       <property name="text">
        <string>Print</string>

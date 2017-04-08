@@ -68,7 +68,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+    <string notr="true">background-color: #1d6bd8;  border: none</string>
    </property>
    <property name="text">
     <string>Profile</string>
@@ -84,7 +84,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+    <string notr="true">background-color: #1d6bd8;  border: none</string>
    </property>
    <property name="text">
     <string>Printing</string>
@@ -100,7 +100,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+    <string notr="true">background-color: #1d6bd8;  border: none</string>
    </property>
    <property name="text">
     <string>Status</string>
@@ -116,7 +116,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #3399ff;  border: 1px solid #3399ff</string>
+    <string notr="true">background-color: #1d6bd8;  border: none</string>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -173,7 +173,32 @@
     </property>
    </widget>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>800</width>
+     <height>439</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/uiBG.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>topFrame</zorder>
+  <zorder>profileButton</zorder>
+  <zorder>printingButton</zorder>
+  <zorder>statusButton</zorder>
+  <zorder>exitButton</zorder>
+  <zorder>sideFrame</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

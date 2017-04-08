@@ -34,9 +34,9 @@
    <widget class="QLabel" name="timeLabel">
     <property name="geometry">
      <rect>
-      <x>560</x>
+      <x>350</x>
       <y>0</y>
-      <width>221</width>
+      <width>431</width>
       <height>41</height>
      </rect>
     </property>
@@ -87,7 +87,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #3399ff</string>
+    <string notr="true">background-color: #1d6bd8; border: none</string>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;ID goes here&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -113,7 +113,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#3399ff;&quot;&gt;Name :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#1d6bd8;&quot;&gt;Name :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="deptLabel">
@@ -126,7 +126,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#3399ff;&quot;&gt;Department :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#1d6bd8;&quot;&gt;Department :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="resultLabel">
@@ -139,7 +139,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#3399ff;&quot;&gt;Result :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#1d6bd8;&quot;&gt;Result :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="instLabel">
@@ -152,7 +152,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#3399ff;&quot;&gt;Institute :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#1d6bd8;&quot;&gt;Institute :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="nameField">
@@ -207,7 +207,38 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;-ditto-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>41</y>
+     <width>800</width>
+     <height>439</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/uiBG.png</pixmap>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>topFrame</zorder>
+  <zorder>photoLabel</zorder>
+  <zorder>idLabel</zorder>
+  <zorder>printQueueItemFrame</zorder>
+  <zorder>nameLabel</zorder>
+  <zorder>deptLabel</zorder>
+  <zorder>resultLabel</zorder>
+  <zorder>instLabel</zorder>
+  <zorder>nameField</zorder>
+  <zorder>deptField</zorder>
+  <zorder>resultField</zorder>
+  <zorder>instField</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

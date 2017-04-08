@@ -98,7 +98,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;border: 1px solid #3399ff</string>
+     <string notr="true">color: white;border: none</string>
     </property>
     <property name="text">
      <string/>

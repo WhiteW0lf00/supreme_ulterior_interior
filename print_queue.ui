@@ -108,13 +108,36 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #3399ff; border: 1px solid white</string>
+    <string notr="true">background-color: #1d6bd8; border: none</string>
    </property>
    <property name="text">
     <string>Exit</string>
    </property>
   </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>800</width>
+     <height>439</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/uiBG.png</pixmap>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>topFrame</zorder>
+  <zorder>listWidget</zorder>
+  <zorder>printStatusFrame</zorder>
+  <zorder>exitButton</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>
