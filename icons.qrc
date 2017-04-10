@@ -13,5 +13,6 @@
         <file alias="loadingBG_small.png">Resources/loadingBG_small.png</file>
         <file alias="status_caution.png">Resources/status_caution.png</file>
         <file alias="uiBG.png">Resources/uiBG.png</file>
+        <file alias="fingerprint.png">Resources/fingerprint.png</file>
     </qresource>
 </RCC>

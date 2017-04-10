@@ -84,7 +84,7 @@
       <x>537</x>
       <y>34</y>
       <width>170</width>
-      <height>20</height>
+      <height>25</height>
      </rect>
     </property>
     <property name="font">
@@ -175,7 +175,7 @@
       <x>536</x>
       <y>31</y>
       <width>171</width>
-      <height>20</height>
+      <height>25</height>
      </rect>
     </property>
     <property name="font">
