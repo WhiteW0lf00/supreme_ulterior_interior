@@ -36,7 +36,7 @@
      <rect>
       <x>323</x>
       <y>1</y>
-      <width>477</width>
+      <width>473</width>
       <height>41</height>
      </rect>
     </property>
@@ -44,7 +44,7 @@
      <string>Time goes here</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="companyLabel">
