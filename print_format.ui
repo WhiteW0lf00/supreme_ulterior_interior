@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>profileWidget</class>
- <widget class="QWidget" name="profileWidget">
+ <class>printformatWidget</class>
+ <widget class="QWidget" name="printformatWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -68,7 +68,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #6c9ee7;  border: none</string>
+    <string notr="true">background-color: #1d6bd8;  border: none</string>
    </property>
    <property name="text">
     <string>Profile</string>
@@ -84,7 +84,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #1d6bd8;  border: none</string>
+    <string notr="true">background-color: #6c9ee7;  border: none</string>
    </property>
    <property name="text">
     <string>Printing</string>
@@ -132,7 +132,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #cddff5</string>
+    <string notr="true">background-color: #cddff5; border: none</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -140,36 +140,84 @@
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="QLabel" name="dataLabel">
+   <widget class="QRadioButton" name="radioButton">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>127</y>
-      <width>337</width>
-      <height>171</height>
+      <x>50</x>
+      <y>30</y>
+      <width>250</width>
+      <height>50</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Data goes here</string>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+    <property name="text">
+     <string>Print format 1(UG)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="iconLabel">
+   <widget class="QRadioButton" name="radioButton_2">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>4</y>
-      <width>100</width>
-      <height>100</height>
+      <x>50</x>
+      <y>100</y>
+      <width>250</width>
+      <height>50</height>
      </rect>
     </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;University&lt;/p&gt;&lt;p&gt;Logo&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+    <property name="text">
+     <string>Print format 2(PG)</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>250</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none</string>
+    </property>
+    <property name="text">
+     <string>Test format 2(Test)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>238</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #f40000;  border: none</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>166</x>
+      <y>238</y>
+      <width>135</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #00b400;  border: none</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
     </property>
    </widget>
   </widget>
@@ -198,6 +246,7 @@
   <zorder>sideFrame</zorder>
  </widget>
  <resources>
+  <include location="icons.qrc"/>
   <include location="icons.qrc"/>
  </resources>
  <connections/>

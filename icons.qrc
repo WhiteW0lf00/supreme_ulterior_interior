@@ -16,5 +16,6 @@
         <file alias="fingerprint.png">Resources/fingerprint.png</file>
         <file alias="router.png">Resources/router.png</file>
         <file alias="support-icon_mini.png">Resources/support-icon_mini.png</file>
+        <file alias="firmwareUpdate.png">Resources/firmwareUpdate.png</file>
     </qresource>
 </RCC>
