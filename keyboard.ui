@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>keyboardWidget</class>
+ <widget class="QWidget" name="keyboardWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QToolButton" name="Q">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>Q</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="W">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="E">
+    <property name="geometry">
+     <rect>
+      <x>164</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="R">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>R</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="T">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>T</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Y">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="U">
+    <property name="geometry">
+     <rect>
+      <x>476</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>U</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="I">
+    <property name="geometry">
+     <rect>
+      <x>554</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="O">
+    <property name="geometry">
+     <rect>
+      <x>632</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>O</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="K">
+    <property name="geometry">
+     <rect>
+      <x>632</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>K</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="G">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="J">
+    <property name="geometry">
+     <rect>
+      <x>554</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="S">
+    <property name="geometry">
+     <rect>
+      <x>164</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="D">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="F">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="shift">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>shift</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="A">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="H">
+    <property name="geometry">
+     <rect>
+      <x>476</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="L">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>80</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>L</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Z">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="N">
+    <property name="geometry">
+     <rect>
+      <x>476</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="M">
+    <property name="geometry">
+     <rect>
+      <x>554</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="switch_2">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>switch</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="B">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="X">
+    <property name="geometry">
+     <rect>
+      <x>164</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="C">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="V">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="P">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>32</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>P</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="backspace">
+    <property name="geometry">
+     <rect>
+      <x>632</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>backspace</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="enter">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>130</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #1d6bd8; border: none
+</string>
+    </property>
+    <property name="text">
+     <string>enter</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
