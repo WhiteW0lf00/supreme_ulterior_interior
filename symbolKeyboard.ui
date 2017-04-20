@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: white;</string>
+    <string notr="true">background-color: #75777a; </string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -41,7 +41,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -58,7 +58,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -75,7 +75,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -92,7 +92,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -109,7 +109,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -126,7 +126,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -143,11 +143,11 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
-     <string>&amp;</string>
+     <string>&amp;&amp;</string>
     </property>
    </widget>
    <widget class="QToolButton" name="star">
@@ -160,7 +160,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -177,7 +177,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -194,7 +194,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -211,7 +211,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -228,7 +228,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -245,7 +245,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -262,7 +262,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -279,7 +279,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -296,7 +296,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -313,7 +313,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -330,7 +330,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -347,7 +347,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -364,7 +364,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -381,7 +381,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -398,7 +398,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -415,11 +415,11 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
-     <string>switch</string>
+     <string>ABC</string>
     </property>
    </widget>
    <widget class="QToolButton" name="underscore">
@@ -432,7 +432,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -449,7 +449,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -466,7 +466,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -483,7 +483,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -500,7 +500,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -517,11 +517,21 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
-     <string>backspace</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/backspace.png</normaloff>:/backspace.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
     </property>
    </widget>
    <widget class="QToolButton" name="enter">
@@ -534,11 +544,21 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
      <string>enter</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/enter-arrow.png</normaloff>:/enter-arrow.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
     </property>
    </widget>
    <widget class="QToolButton" name="nine">
@@ -551,7 +571,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -568,7 +588,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -585,7 +605,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -602,7 +622,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -619,7 +639,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -636,7 +656,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -653,7 +673,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -670,7 +690,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -687,7 +707,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -704,7 +724,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1d6bd8; border: none
+     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
 </string>
     </property>
     <property name="text">
@@ -713,6 +733,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

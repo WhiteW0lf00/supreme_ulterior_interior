@@ -17,5 +17,10 @@
         <file alias="router.png">Resources/router.png</file>
         <file alias="support-icon_mini.png">Resources/support-icon_mini.png</file>
         <file alias="firmwareUpdate.png">Resources/firmwareUpdate.png</file>
+        <file alias="backspace.png">Resources/backspace.png</file>
+        <file alias="enter-arrow.png">Resources/enter-arrow.png</file>
+        <file alias="shift-fill.png">Resources/shift-fill.png</file>
+        <file alias="shift-holo.png">Resources/shift-holo.png</file>
+
     </qresource>
 </RCC>
