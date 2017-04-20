@@ -42,7 +42,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -59,7 +59,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -76,7 +76,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -93,7 +93,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -110,7 +110,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -127,7 +127,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -144,7 +144,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -161,7 +161,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -178,7 +178,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -195,7 +195,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -212,7 +212,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -229,7 +229,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -246,7 +246,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -263,7 +263,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -280,7 +280,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -297,7 +297,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -324,7 +324,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -341,7 +341,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -358,7 +358,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -375,7 +375,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -392,7 +392,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -409,7 +409,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -426,7 +426,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -443,7 +443,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -460,7 +460,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -477,7 +477,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -494,7 +494,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -511,7 +511,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -528,7 +528,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -555,7 +555,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -582,7 +582,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -599,7 +599,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -616,7 +616,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -633,7 +633,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -650,7 +650,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -667,7 +667,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -684,7 +684,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -701,7 +701,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -718,7 +718,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
@@ -735,7 +735,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #1f2021; border: 2px; border-radius: 4px
+     <string notr="true">background-color: #1f2021; border: 2px solid #1f2021; border-radius: 4px; color:white;
 </string>
     </property>
     <property name="text">
